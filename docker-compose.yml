@@ -1,6 +1,6 @@
 version: '3' #verzija na fajlot
 services: #services we are running
-  wp_app: #name of our app service
+  wp_app: #name of our app service.
     image: 'lab-wp:latest' #the image we are creating/pulling
     ports: #the port we are mapping it on
       - "9091:9091"
