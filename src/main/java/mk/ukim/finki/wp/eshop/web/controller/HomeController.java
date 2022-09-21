@@ -5,6 +5,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+// home page controller
 @Controller
 @RequestMapping(value = {"/", "/home"})
 public class HomeController {
